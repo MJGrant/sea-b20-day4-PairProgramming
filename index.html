@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+
 </head>
 <body>
   <form action="">
@@ -10,33 +11,15 @@
     <input type="text" id="urlInput" value="test">
     <radiogroup>
       <input type="radio" name="domain" value=".com" label="com" id="com">.com<!-- <label for="com">com</label> -->
-      <input type="radio" name="domain" value=".net" label="net" id="">.net
+      <input type="radio" name="domain" value=".net" label="net" id="net">.net
       <input type="radio" name="domain" value=".org" id="">.org
       <input type="radio" name="domain" value=".io" id="">.io
       <input type="radio" name="domain" value=".mobi" id="">.mobi
     </radiogroup>
 
-    <div id="result">
-     
-
-    </div>
-
-    <script>
-      var url = document.getElementById("urlInput");
-      url.addEventListener("blur", blurEventHandler, false);
-
-      function blurEventHandler() {
-        url = url.value;
-        console.log("1st" + url);
-
-        var div = document.getElementById("result");
-        div.innerHTML = div.innerHTML + url;
-      }
-      
-      
-
-
-    </script>
+    <div id="result"></div>
   </form>
+
+  <script src="index.js"></script>
 </body>
 </html>

@@ -1,0 +1,22 @@
+{
+  "name": "URI-Pair-Programming-Day4HW",
+  "version": "0.0.1",
+  "description": "Pair programming homework assignment that uses URIjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MJGrant/sea-b20-day4-PairProgramming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MJGrant/sea-b20-day4-PairProgramming/issues"
+  },
+  "homepage": "https://github.com/MJGrant/sea-b20-day4-PairProgramming",
+  "dependencies": {
+    "URIjs": "^1.13.2"
+  }
+}
