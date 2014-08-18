@@ -1,0 +1,26 @@
+body {
+  font-family:arial,sans-serif;
+}
+
+#urlInput {
+  width:250px;
+  padding:5px 3px;
+  border:1px solid #999;
+}
+
+h4 {
+  font-weight:normal;
+  margin-bottom:3px;
+  color:#1a0dab;
+  font-size:18px;
+}
+
+#result {
+  color: #006621;
+}
+#searchResults{
+  display: none;
+}
+#searchResults.show{
+  display: block;
+}

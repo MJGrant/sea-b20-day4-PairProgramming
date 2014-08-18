@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Doman Previewer</title>
+  <link rel="stylesheet" href="stylesheets/styles.css">
+</head>
+<body>
+  <form action="">
+    Enter your domain:
+    <input type="text" id="urlInput" value="http://yourdomain.com">
+    <radiogroup>
+      <input type="radio" name="domain" value="com">.com<!-- <label for="com">com</label> -->
+      <input type="radio" name="domain" value="net">.net
+      <input type="radio" name="domain" value="org">.org
+      <input type="radio" name="domain" value="io">.io
+      <input type="radio" name="domain" value="mobi">.mobi
+      <input type="radio" name="domain" value="me">.me
+      <input type="radio" name="domain" value="co.uk">.co.uk
+    </radiogroup>
+  </form>
+
+  <div id="searchResults">
+      <br><br>
+      How you look in Google's search results:
+      <br>
+      <h4>Your website's <b>title</b> here</h4>
+      <div id="result"></div>
+  </div>
+
+  <script src="scripts/bundle.js"></script>
+</body>
+</html>
